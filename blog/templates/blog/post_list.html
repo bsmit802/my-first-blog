@@ -3,21 +3,18 @@
         <title> Bethany's Blog</title>
     </head>
     <body>
-        <div>
-            <h1>Welcome to Bethany's Blog!</h1>
-        </div>
+    <div>
+        <h1>Welcome to Bethany's Blog!</h1>
+    </div>
 
+    {%for post in posts %}
         <div>
-            <p> published: May 2020</p>
-            <h2><a href = ""> My First Post</a></h2>
-            <p> My first post is a test</p>
-        </div>
+            <p> published: {{ post.published_date }} </p>
+            <h2><a href="">{{post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
 
-        <div>
-            <p> published: May 2020</p>
-            <h2><a href = ""> My Second Post</a></h2>
-            <p> My second post about the blog</p>
-        </div>
 
+        </div>
+    {% endfor %}
     </body>
 </html>

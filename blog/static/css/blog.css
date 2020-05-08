@@ -1,8 +1,8 @@
 h1 a, h2 a {
-colour: #E0C6E0
-font-family: 'Lobster';
+    colour: #E0C6E0;
+    font-family: 'Lobster';
 }
 
 body {
-padding-left: 15px;
+    padding-left: 15px;
 }

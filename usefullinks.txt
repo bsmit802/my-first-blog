@@ -1,0 +1,3 @@
+https://tutorial.djangogirls.org/en/template_extending/
+https://www.freecodecamp.org/news/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11/#typography
+https://www.w3schools.com/html/html_headings.asp
